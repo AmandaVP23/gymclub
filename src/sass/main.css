@@ -13,9 +13,11 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1;
   box-sizing: border-box;
   background-color: #000000;
+  width: 100vw;
+  max-width: 100%;
 }
 
 .header-txt {
@@ -24,8 +26,49 @@ body {
   text-transform: uppercase;
 }
 
+.heading-primary {
+  color: #FFC03A;
+  text-transform: uppercase;
+  font-size: 7.2rem;
+  line-height: 1.1;
+  font-weight: 300;
+}
+
+.heading-secondary {
+  color: #F7F7F7;
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.paragraph-medium {
+  color: #F7F7F7;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.paragraph {
+  color: #F7F7F7;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 3rem;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 4.5rem;
+}
+
 .header {
-  width: 100vw;
+  width: 100%;
   height: 4.5rem;
   display: inline-flex;
   align-items: center;
@@ -34,7 +77,7 @@ body {
 }
 
 .nav {
-  width: 100vw;
+  width: 100%;
   padding: 0.5rem 3rem;
   margin-bottom: 0.8rem;
   background-color: #191919;
@@ -50,11 +93,62 @@ body {
 }
 
 .home {
+  width: 100%;
   background-color: #191919;
 }
 
 .section-welcome {
+  display: inline-flex;
   width: 100%;
+  height: 95vh;
+}
+.section-welcome__parallax {
+  display: inline-block;
+  width: 60%;
+  background-image: url("../images/gym_1.jpg");
+  background-attachment: fixed;
+  background-position-x: -40rem;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-welcome__information {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  color: #F7F7F7;
+  padding: 3rem 8rem;
+}
+
+.section-philosophy {
+  padding: 5.5rem;
+  height: 95vh;
+  position: relative;
+}
+.section-philosophy__content {
+  height: 100%;
+  max-width: 100%;
+  background-image: url("../images/gym_2.jpg");
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-philosophy__text {
+  width: 100%;
+  height: 100%;
+  padding: 6rem 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: brightness(60%);
+  -webkit-backdrop-filter: brightness(60%);
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

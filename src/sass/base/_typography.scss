@@ -3,3 +3,32 @@
     font-size: 2.2rem;
     text-transform: uppercase;
 }
+
+.heading-primary {
+    color: $color-primary;
+    text-transform: uppercase;
+    font-size: 7.2rem;
+    line-height: 1.1;
+    font-weight: 300;
+}
+
+.heading-secondary {
+    color: $color-fourth;
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.paragraph-medium {
+    color: $color-fourth;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.paragraph {
+    color: $color-fourth;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+}

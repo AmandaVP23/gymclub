@@ -67,6 +67,17 @@ body {
   margin-bottom: 4.5rem;
 }
 
+.btn, .btn:link, .btn:visited {
+  text-decoration: none;
+  color: #191919;
+  font-size: 1.5rem;
+  display: inline-block;
+  padding: 1.2rem 2.2rem;
+}
+.btn--primary {
+  background-color: #FFC03A;
+}
+
 .header {
   width: 100%;
   height: 4.5rem;
@@ -83,12 +94,12 @@ body {
   background-color: #191919;
   color: #F7F7F7;
 }
-.nav__item:link, .nav__item:active {
+.nav__item:link, .nav__item:visited {
   font-size: 1.4rem;
   color: inherit;
   text-decoration: none;
 }
-.nav__item:link:not(:last-of-type), .nav__item:active:not(:last-of-type) {
+.nav__item:link:not(:last-of-type), .nav__item:visited:not(:last-of-type) {
   margin-right: 2rem;
 }
 
@@ -125,7 +136,6 @@ body {
 .section-philosophy {
   padding: 5.5rem;
   height: 95vh;
-  position: relative;
 }
 .section-philosophy__content {
   height: 100%;
@@ -148,6 +158,29 @@ body {
   align-items: center;
   backdrop-filter: brightness(60%);
   -webkit-backdrop-filter: brightness(60%);
+  text-align: center;
+}
+
+.section-history {
+  height: 92vh;
+  background-image: url("../images/gym_3.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+.section-history__content {
+  width: 100%;
+  height: 100%;
+  padding: 4rem 6rem;
+  backdrop-filter: brightness(50%);
+  -webkit-backdrop-filter: brightness(50%);
+  position: relative;
+}
+.section-history__content__text {
+  max-width: 70rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 

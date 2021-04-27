@@ -20,7 +20,7 @@ const Home: FunctionComponent = () => {
                     </div>
                 </div>
             </section>
-            <section className="section-history">
+            <section className="section-history" id="about_us">
                 <div className="section-history__content">
                     <div className="section-history__content__text">
                         <h2 className="heading-secondary u-margin-bottom-big">Nossa história</h2>

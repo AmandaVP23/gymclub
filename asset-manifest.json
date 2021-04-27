@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gymclub/static/css/main.e648159d.chunk.css",
+    "main.js": "/gymclub/static/js/main.c8dd232d.chunk.js",
+    "main.js.map": "/gymclub/static/js/main.c8dd232d.chunk.js.map",
+    "runtime-main.js": "/gymclub/static/js/runtime-main.5e406166.js",
+    "runtime-main.js.map": "/gymclub/static/js/runtime-main.5e406166.js.map",
+    "static/js/2.7a4744fb.chunk.js": "/gymclub/static/js/2.7a4744fb.chunk.js",
+    "static/js/2.7a4744fb.chunk.js.map": "/gymclub/static/js/2.7a4744fb.chunk.js.map",
+    "static/js/3.90f7d70a.chunk.js": "/gymclub/static/js/3.90f7d70a.chunk.js",
+    "static/js/3.90f7d70a.chunk.js.map": "/gymclub/static/js/3.90f7d70a.chunk.js.map",
+    "index.html": "/gymclub/index.html",
+    "static/css/main.e648159d.chunk.css.map": "/gymclub/static/css/main.e648159d.chunk.css.map",
+    "static/js/2.7a4744fb.chunk.js.LICENSE.txt": "/gymclub/static/js/2.7a4744fb.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/gymclub/static/media/gym_2.4c6ecb35.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e406166.js",
+    "static/js/2.7a4744fb.chunk.js",
+    "static/css/main.e648159d.chunk.css",
+    "static/js/main.c8dd232d.chunk.js"
+  ]
+}

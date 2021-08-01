@@ -42,6 +42,14 @@ body {
   font-weight: 700;
 }
 
+.heading-tertiary {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
 .paragraph-medium {
   color: #F7F7F7;
   font-size: 2rem;
@@ -65,6 +73,10 @@ body {
 
 .u-margin-bottom-big {
   margin-bottom: 4.5rem;
+}
+
+.txt-primary-color {
+  color: #FFC03A;
 }
 
 .btn, .btn:link, .btn:visited {
@@ -265,6 +277,42 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.section-schedule {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #FFFFFF;
+}
+.section-schedule__info {
+  grid-column: 1/2;
+  padding: 11.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-schedule__info > div {
+  min-width: 65%;
+}
+.section-schedule__img-bg {
+  background-image: url("../images/gym_5.jpg");
+  background-position: center right;
+  background-size: cover;
+}
+
+.section-classes {
+  background-color: #000000;
+  padding: 6rem 8rem;
+  text-align: center;
+}
+.section-classes > p {
+  padding: 0 15rem;
+}
+.section-classes__items {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=main.css.map */

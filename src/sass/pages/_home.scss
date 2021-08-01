@@ -177,3 +177,48 @@
         }
     }
 }
+
+.section-schedule {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: $color-white;
+
+    &__info {
+        grid-column: 1 / 2;
+        padding: 11.5rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        > div {
+            min-width: 65%;
+        }
+    }
+
+    &__img-bg {
+        background-image: url("../images/gym_5.jpg");
+        background-position: center right;
+        background-size: cover;
+    }
+}
+
+.section-classes {
+    background-color: $color-black;
+    padding: 6rem 8rem;
+    text-align: center;
+
+    > p {
+      padding: 0 15rem;
+    }
+
+    &__items {
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+
+        &__item {
+
+        }
+    }
+}

@@ -158,6 +158,32 @@ class Home extends Component<OwnProps, OwnState> {
                         </div>
                     </div>
                 </section>
+
+                {/* SCHEDULE INFORMATION SECTION */}
+                <section className="section-schedule">
+                    <div className="section-schedule__info">
+                        <div>
+                            <h4 className="heading-tertiary u-margin-bottom-big txt-primary-color">Horário</h4>
+                            <p className="paragraph-medium u-margin-bottom-big">Venha nos visitar</p>
+                            <p className="paragraph">Seg - Sex: 9:00 - 18:00</p>
+                            <p className="paragraph">Sáb: 10:00 - 14:00</p>
+                            <p className="paragraph">Dom: fechado</p>
+                        </div>
+                    </div>
+                    <div className="section-schedule__img-bg" />
+                </section>
+
+                {/* CLASSES SECTION */}
+                <section className="section-classes">
+                    <h2 className="heading-secondary u-margin-bottom-big txt-primary-color">PARTICIPE DE UMA AULA DE GINÁSTICA</h2>
+                    <p className="paragraph">No(a) GymClub, criamos aulas para pessoas de qualquer nível de preparo físico. Se você quer chegar longe, você consegue! Ou se você quiser apenas perder peso e se manter ativo, temos a aula certa para você. Escolha as aulas que melhor se adéquam aos seus horários.</p>
+                    <p className="paragraph">Garanta já seu lugar na próxima aula.</p>
+                    <div className="section-classes__items">
+                        <div className="section-classes__items__item">
+                            <img />
+                        </div>
+                    </div>
+                </section>
             </main>
         );
     }

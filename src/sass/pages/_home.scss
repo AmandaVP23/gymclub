@@ -6,7 +6,7 @@
 .section-welcome {
     display: inline-flex;
     width: 100%;
-    height: 95vh;
+    height: 89vh;
 
     &__parallax {
         display: inline-block;
@@ -57,6 +57,99 @@
         backdrop-filter: brightness(60%);
         -webkit-backdrop-filter: brightness(60%);
         text-align: center;
+    }
+}
+
+.section-videos {
+    background-color: $color-black;
+    padding: 11rem 50rem;
+
+    &__content {
+        width: 100%;
+        height: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding-top: 56.25%;
+
+        video {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        &__controls {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2.5rem;
+            z-index: 3;
+
+            &:hover {
+                .ico-arrow,
+                .pause-show {
+                    opacity: 1;
+                    visibility: visible;
+                    cursor: pointer;
+                }
+            }
+
+            &__center {
+                position: relative;
+                width: 60px;
+                height: 60px;
+
+                .svg-icon {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+
+            &__show {
+                opacity: 1;
+                visibility: visible;
+                transition: all .4s ease-in-out;
+                cursor: pointer;
+            }
+
+            &__hide,
+            .pause-show {
+                opacity: 0;
+                visibility: visible;
+                cursor: default;
+                transition: all .4s ease-in-out;
+            }
+
+            .ico-arrow {
+                opacity: 0;
+                visibility: hidden;
+                cursor: default;
+                transition: all .4s ease-in-out;
+            }
+
+            .ico-arrow-hidden {
+                opacity: 0;
+                visibility: hidden;
+                cursor: default;
+            }
+
+            .svg-icon {
+                width: 60px;
+                height: 60px;
+                fill: $color-white;
+            }
+        }
     }
 }
 

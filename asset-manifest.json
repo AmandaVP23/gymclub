@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/gymclub/static/css/main.cf4d0cbe.chunk.css",
-    "main.js": "/gymclub/static/js/main.2cc1da95.chunk.js",
-    "main.js.map": "/gymclub/static/js/main.2cc1da95.chunk.js.map",
-    "runtime-main.js": "/gymclub/static/js/runtime-main.5e406166.js",
-    "runtime-main.js.map": "/gymclub/static/js/runtime-main.5e406166.js.map",
-    "static/js/2.7a4744fb.chunk.js": "/gymclub/static/js/2.7a4744fb.chunk.js",
-    "static/js/2.7a4744fb.chunk.js.map": "/gymclub/static/js/2.7a4744fb.chunk.js.map",
-    "static/js/3.90f7d70a.chunk.js": "/gymclub/static/js/3.90f7d70a.chunk.js",
-    "static/js/3.90f7d70a.chunk.js.map": "/gymclub/static/js/3.90f7d70a.chunk.js.map",
+    "main.css": "/gymclub/static/css/main.de3d8a7a.chunk.css",
+    "main.js": "/gymclub/static/js/main.0224201f.chunk.js",
+    "main.js.map": "/gymclub/static/js/main.0224201f.chunk.js.map",
+    "runtime-main.js": "/gymclub/static/js/runtime-main.5651ee13.js",
+    "runtime-main.js.map": "/gymclub/static/js/runtime-main.5651ee13.js.map",
+    "static/js/2.5d14cafd.chunk.js": "/gymclub/static/js/2.5d14cafd.chunk.js",
+    "static/js/2.5d14cafd.chunk.js.map": "/gymclub/static/js/2.5d14cafd.chunk.js.map",
+    "static/js/3.5b77d62a.chunk.js": "/gymclub/static/js/3.5b77d62a.chunk.js",
+    "static/js/3.5b77d62a.chunk.js.map": "/gymclub/static/js/3.5b77d62a.chunk.js.map",
     "index.html": "/gymclub/index.html",
-    "static/css/main.cf4d0cbe.chunk.css.map": "/gymclub/static/css/main.cf4d0cbe.chunk.css.map",
-    "static/js/2.7a4744fb.chunk.js.LICENSE.txt": "/gymclub/static/js/2.7a4744fb.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/gymclub/static/media/gym_3.006bd0d7.jpg"
+    "static/css/main.de3d8a7a.chunk.css.map": "/gymclub/static/css/main.de3d8a7a.chunk.css.map",
+    "static/js/2.5d14cafd.chunk.js.LICENSE.txt": "/gymclub/static/js/2.5d14cafd.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/gymclub/static/media/gym_5.4bc383ce.jpg",
+    "static/media/video-jogging.f2ea4280.mp4": "/gymclub/static/media/video-jogging.f2ea4280.mp4",
+    "static/media/video-jump_rope.c958d0ff.mp4": "/gymclub/static/media/video-jump_rope.c958d0ff.mp4",
+    "static/media/video-training_battle_rope.b2de7684.mp4": "/gymclub/static/media/video-training_battle_rope.b2de7684.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e406166.js",
-    "static/js/2.7a4744fb.chunk.js",
-    "static/css/main.cf4d0cbe.chunk.css",
-    "static/js/main.2cc1da95.chunk.js"
+    "static/js/runtime-main.5651ee13.js",
+    "static/js/2.5d14cafd.chunk.js",
+    "static/css/main.de3d8a7a.chunk.css",
+    "static/js/main.0224201f.chunk.js"
   ]
 }

@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import videoJumpRope from '../videos/video-jump_rope.mp4';
 import videoJogging from '../videos/video-jogging.mp4';
 import videoTrainingBattleRope from '../videos/video-training_battle_rope.mp4';
+import cyclingIndoorImg from '../images/indoor-cycling.jpg';
+import cardioImg from '../images/cardio.jpg';
+import yogaImg from '../images/yoga.jpg';
 import IconPlayCircle from '../icons/IconPlayCircle';
 import IconChevronRight from '../icons/IconChevronRight';
 import IconPauseCircle from '../icons/IconPauseCircle';
@@ -180,7 +183,19 @@ class Home extends Component<OwnProps, OwnState> {
                     <p className="paragraph">Garanta já seu lugar na próxima aula.</p>
                     <div className="section-classes__items">
                         <div className="section-classes__items__item">
-                            <img />
+                            <img src={cyclingIndoorImg} alt="cycling indoor" />
+                            <h3 className="heading-fourth txt-primary-color u-margin-top-big">Ciclismo Indoor</h3>
+                            <p className="paragraph u-margin-top-big">Fortaleça-se</p>
+                        </div>
+                        <div className="section-classes__items__item">
+                            <img src={cardioImg} alt="cardio" />
+                            <h3 className="heading-fourth txt-primary-color u-margin-top-big">Exercícios de cardio</h3>
+                            <p className="paragraph u-margin-top-big">Elimine os quilos extras</p>
+                        </div>
+                        <div className="section-classes__items__item">
+                            <img src={yogaImg} alt="yoga" />
+                            <h3 className="heading-fourth txt-primary-color u-margin-top-big">Yoga</h3>
+                            <p className="paragraph u-margin-top-big">Encontre sua força</p>
                         </div>
                     </div>
                 </section>

@@ -205,7 +205,7 @@
 
 .section-classes {
     background-color: $color-black;
-    padding: 6rem 8rem;
+    padding: 9rem 8rem;
     text-align: center;
 
     > p {
@@ -216,9 +216,19 @@
         width: 100%;
         display: inline-flex;
         justify-content: space-between;
+        padding: 0 8rem;
+        margin-top: 7rem;
 
         &__item {
+            > img {
+                height: 24rem;
+                width: 30rem;
+                object-fit: cover;
+            }
 
+            .paragraph {
+                font-size: 1.8rem;
+            }
         }
     }
 }
